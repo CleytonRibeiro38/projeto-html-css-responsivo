@@ -246,3 +246,16 @@ img{
     margin-top: 2%;
     color: rgba(255,255,255,0.7);
 }
+
+/*=======MOBILE FIRST=======*/
+/*=======SMAL DEVICES - SMARTPHONES=======*/
+
+@media screen and (min-width:480px) {
+    .logo{
+        width: 214px;
+        background: url(../img/logo.png) no-repeat center/214px;
+    }
+    .btn{
+        font-size: 2em;
+    }
+}
